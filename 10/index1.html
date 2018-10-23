@@ -1,0 +1,520 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>上海十一一节假日分析</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css"  />
+    <link rel="stylesheet" type="text/css" href="style/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style/my-animate.css"/>
+    <link rel="stylesheet" type="text/css" href="style/p2.css"/>
+	<link rel="stylesheet" type="text/css" href="style/p3.css"/>
+	<link rel="stylesheet" type="text/css" href="style/p4.css"/>
+	<link rel="stylesheet" type="text/css" href="style/p5.css"/>
+    <link rel="stylesheet" type="text/css" href="style/p6.css"/>
+    <link rel="stylesheet" type="text/css" href="style/p9.css"/>
+    <script>
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 750;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=750, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+        }
+    </script>
+</head>
+<body>
+    <div class="loading_box">
+        <div class="loading_logo">
+            <img src="images/load.gif"  />
+        </div>
+    </div>
+    <div class="main">
+        <div class="music_inco"></div>
+        <div class="pages" style="display:block;">
+            <img src="images/updown_inco.png" class="next">
+            <div class="page page1">
+            	
+            	<div class="bg1"></div>
+            	<img class="LOGO" src="img/p1/LOGO.png"/>
+            	<img class="pages-header" src="img/p1/header-bg.png"/>
+        		<img class="pages-footer" src="img/p1/qianjing.png"/>
+        		
+        		<div class="one-con">
+	        		<img class="p1-text1" src="img/p1/text1.png" />
+	        		<img class="p1-text2" src="img/p1/text2.png" />
+	        		<img class="p1-green" src="img/p1/green.png" />
+	        		
+	        		<img class="p1-qq1" src="img/p1/qq1.png" />
+	        		<img class="p1-qq2" src="img/p1/qq2.png" />
+	        		<img class="p1-qq3" src="img/p1/qq3.png" />
+	        		<img class="p1-qq4" src="img/p1/qq4.png" />
+        		</div>
+
+            </div>
+          
+            <div class="page page2">
+        		<div class="bg2"></div>
+        		<!--<p class="page-num">1</p>-->
+        		<img class="pages-header" src="img/p1/header-bg.png"/>
+        		<img class="pages-footer" src="img/p1/qianjing.png"/>
+        		
+        		<div class="g-con">
+        			<div class="g-con-line"></div>
+        			<img class="aire" src="img/p1/aire.png"/>
+        			<img class="title" style="position: absolute;left: 50%;top: 29px;margin-left: -167px;" src="img/p2/title.png"/>
+        			
+        			<img class="p2-text1" src="img/p2/p2-text1.png"/>
+        			<img class="p2-text2" src="img/p2/p2-text2.png"/>
+        			<div class="go-warp1"><img class="go1" src="img/p2/go.png"/></div>
+        			<img class="p2-sh" src="img/p2/p2-sh.png"/>
+        			<div class="go-warp2"><img class="go2" src="img/p2/go.png"/></div>
+        			<img class="p2-text3" src="img/p2/p2-text3.png"/>
+        		</div>
+            </div>
+            <div class="page page3">
+        		<div class="bg3"></div>	
+        		<p class="page-num">2</p>
+        		<img class="pages-header" src="img/p1/header-bg.png"/>
+        		<img class="pages-footer" src="img/p1/qianjing.png"/>
+        		
+        		<div class="g-con">
+        			<div class="g-con-line"></div>
+        			<img class="aire" src="img/p1/aire.png"/>
+        			<img class="title" style="position: absolute;left: 50%;top: 29px;margin-left: -222px;" src="img/p3/p3-title.png"/>
+        			
+        			<img class="p3-map1" src="img/p3/p3-map1.png"/>
+        			<img class="p3-no1" src="img/p3/no1.png"/>
+        			<img class="p3-no2" src="img/p3/no2.png"/>
+        			<img class="p3-no3" src="img/p3/no3.png"/>
+        			
+        			<img class="p3-jiantou" src="img/p3/p3-jiantou.png"/>
+        			<img class="p3l-title1" src="img/p3/p3l-title1.png"/>
+        			<img class="p3-title2" src="img/p3/p3-title2.png"/>
+        			
+        			<img class="p3-map2" src="img/p3/p3-map2.png"/>
+        			
+        			<img class="p3-label1" src="img/p3/p3-label1.png"/>
+        			<img class="p3-label-text1" src="img/p3/p3-label-text1.png"/>
+        			
+        			<img class="p3-label2" src="img/p3/p3-label2.png"/>
+        			<img class="p3-label-text2" src="img/p3/p3-label-text2.png"/>
+        			
+        			<img class="p3-label3" src="img/p3/p3-label3.png"/>
+        			<img class="p3-label-text3" src="img/p3/p3-label-text3.png"/>
+        			
+        			<img class="p3-label4" src="img/p3/p3-label4.png"/>
+        			<img class="p3-label-text4" src="img/p3/p3-label-text4.png"/>
+        			
+        			<img class="p3-label5" src="img/p3/p3-label5.png"/>
+        			<img class="p3-label-text5" src="img/p3/p3-label-text5.png"/>
+        		</div>
+            </div>
+            <div class="page page4">
+            	<div class="bg4"></div>
+            	
+            	<p class="page-num">3</p>
+        		<img class="pages-header" src="img/p1/header-bg.png"/>
+				<img class="pages-footer" src="img/p1/qianjing.png"/>
+				
+        		<div class="g-con">
+        			<div class="g-con-line"></div>
+					<img class="aire" src="img/p1/aire.png"/>
+					<img class="title" style="position:absolute; left:50%;top:29px;margin-left:-190px;" src="img/p4/title.png">
+
+					<img class="p4-text1" src="img/p4/top9.png">
+					<img class="p4-map" src="img/p4/p4-sandu-map.png">
+
+					<img class="p4-text2" src="img/p4/top1.png">
+					<img class="p4-text3" src="img/p4/top2.png">
+					<img class="p4-text4" src="img/p4/top3.png">
+
+					<img class="p4-no4" src="img/p4/4.png">
+					<img class="p4-no5" src="img/p4/5.png">
+					<img class="p4-no6" src="img/p4/6.png">
+					<img class="p4-no7" src="img/p4/7.png">
+					<img class="p4-no8" src="img/p4/8.png">
+					<img class="p4-no9" src="img/p4/9.png">
+
+					<img class="play" src="img/p4/play.png">
+					<img class="white1 white" src="img/p4/white.png">
+					<img class="yellow1 yellow" src="img/p4/yellow.png">
+					<img class="num1 num" src="img/p4/403.png" >
+
+					<img class="home" src="img/p4/home.png">
+					<img class="white2 white" src="img/p4/white.png">
+					<img class="yellow2 yellow" src="img/p4/yellow2.png">
+					<img class="num2 num" src="img/p4/128.png" >
+
+					<img class="p4-text5" src="img/p4/text.png">
+        		</div>
+            </div>
+            <div class="page page5">
+            	<div class="bg5"></div>
+            	
+            	<p class="page-num">4</p>
+				<img class="pages-header" src="img/p1/header-bg.png"/>
+				<img class="pages-footer" src="img/p1/qianjing.png"/>
+				
+				<div class="g-con">
+        			<div class="g-con-line"></div>
+					<img class="aire" src="img/p1/aire.png"/>
+					<img class="title" style="position: absolute;left:50%;top:29px;margin-left:-190px;" src="img/p5/title.png">
+        			
+        			<img class="usa" src="img/p5/america.png" >
+					<img class="jpa" src="img/p5/japan.png" >
+					<img class="hk"  src="img/p5/hongkong.png" >
+					<img class="tw"  src="img/p5/taiwan.png" >
+					<img class="aus" src="img/p5/aus.png" >
+
+					<img class="text" src="img/p5/text.png">
+        		</div>
+				
+        		<!-- <div class="base-page base-bg-prea" style="background: transparent url(img/p5/p5-all-bg.png) center no-repeat;background-size: 100% 100%;border: none">
+        			<img class="p5-bg-title" src="img/p5/p5-bg-title.png"/>
+        			<div class="p5-xian opaCity">
+        				<img class="p5-top1 opaCity" src="img/p5/p5-top1.png"/>
+        				<img class="p5-top2 opaCity" src="img/p5/p5-top2.png"/>
+        				<img class="p5-top3 opaCity" src="img/p5/p5-top3.png"/>
+        				<img class="p5-top4 opaCity" src="img/p5/p5-top4.png"/>
+        				<img class="p5-top5 opaCity" src="img/p5/p5-top5.png"/>
+        			</div>
+        			<p class="p5-wenan boxSiz opaCity">本次假日，上海出游人群当中有11万人选择境外旅游，领略一番异域风情。</p>
+        		</div>
+        		<div class="base-page base-bg-next">
+        			
+        		</div> -->
+            </div>
+            <div class="page page6">
+            	<div class="bg6"></div>
+            	<p class="page-num">5</p>
+            	<img class="pages-header" src="img/p1/header-bg.png"/>
+        		<img class="pages-footer" src="img/p1/qianjing.png"/>
+        		
+        		<div class="g-con">
+        			<div class="g-con-line"></div>
+        			<img class="aire" src="img/p1/aire.png"/>
+        			<img class="title" style="position: absolute;left: 50%;top: 29px;margin-left: -94px;" src="img/p6/biaoti.png"/>
+        		
+        				<div class="p6-top-chat1 opaCity">出行总人数601万</div>
+        				<div class="p6-top-chat2 opaCity">
+        					<div class="p6-top-chat2-in"></div>
+        					<span class="p6-top-chat2-label">商旅</span>
+        					<span class="fr p6-top-chat2-text">29w</span>
+        				</div>
+        				<div class="p6-top-chat3 opaCity">
+        					<div class="p6-top-chat3-in"></div>
+        					<span class="p6-top-chat3-label">金融</span>
+        					<span class="fr p6-top-chat3-text">117w</span>
+        				</div>
+        				<img class="p6-jiantou1 opaCity" src="img/p6/jiangtoushang.png"/>
+        				<img class="p6-jiantou1-text opaCity" src="img/p6/51871liuliangb.png"/>
+        				<img class="p6-jiantou2 opaCity" src="img/p6/jiantouxia.png"/>
+        				<img class="p6-jiantou2-text opaCity" src="img/p6/liulb7627.png"/>
+        				<img class="p6-top-wenan boxSiz opaCity" src="img/p6/xiaojie.png"/>
+        				
+        				<img class="p6-fengexian" src="img/p6/quxian.png"/>
+        				
+        				<div class="p6-bottom-list boxSiz clearfix" style="margin-top: 60px;">
+        					<div class="p6-bottom-con p6-bottom-con1 boxSiz fl opaCity" style="background: url(img/p6/feiji.png) left center no-repeat;">飞机 9%</div>
+        					<div class="p6-bottom-con p6-bottom-con2 boxSiz fl opaCity" style="background: url(img/p6/huoche.png) left center no-repeat;">火车 40%</div>
+        				</div>
+        				<div class="p6-bottom-list boxSiz clearfix">
+        					<div class="p6-bottom-con p6-bottom-con3 boxSiz fl opaCity" style="background: url(img/p6/qiche.png) left center no-repeat;">汽车 42%</div>
+        					<div class="p6-bottom-con p6-bottom-con4 boxSiz fl opaCity" style="background: url(img/p6/lunchuan.png) left center no-repeat;">轮船 4%</div>
+        				</div>
+        				
+        		</div>
+            </div>
+            <div class="page page7">
+            	<div class="bg7"></div>
+            	<p class="page-num">6</p>
+            	<img class="pages-header" src="img/p1/header-bg.png"/>
+        		<img class="pages-footer" src="img/p1/qianjing.png"/>
+        		
+        		<div class="g-con">
+        			<div class="g-con-line"></div>
+        			<img class="aire" src="img/p1/aire.png"/>
+        			<img class="title" style="position: absolute;left: 50%;top: 29px;margin-left: -156px;" src="img/p7/biaoti.png"/>
+        			
+        			<img class="p7-img01" src="img/p7/datu.png" />
+        			<img class="p7-imgtext01" src="img/p7/datu1.png"/>
+        			
+        			<img class="p7-img02" src="img/p7/guonei1.png"/>
+        			<img class="p7-img03" src="img/p7/guoji2.png"/>
+        			
+        			<img class="p7-imgtext02" src="img/p7/guonei.png"/>
+        			<img class="p7-imgtext03" src="img/p7/guoji.png"/>
+        			
+        			<img class="p7-chat01" src="img/p7/bingtuzuo.png"/>
+        			<img class="p7-chat02" src="img/p7/bingtuyou.png"/>
+        			
+        			<img class="p7-wenan" src="img/p7/xiaojie.png"/>
+        				
+        				
+        		</div>
+            </div>
+            <div class="page page8">
+            	<div class="bg8"></div>
+            	
+            	<p class="page-num">7</p>
+        		
+        		<div class="base-page base-bg-prea" style="background: transparent url(img/p8/p8-all-bg.png) center no-repeat;background-size: 100% 100%;border: none">
+        			<img class="p8-bg-title" src="img/p8/p8-title-bg.png"/>
+        			<div class="p8-top opaCity">
+        				<img class="p8-router1 opaCity" src="img/p8/p8-router1.png"/>
+        				<img class="p8-router2 opaCity" src="img/p8/p8-router2.png"/>
+        				<img class="p8-router3 opaCity" src="img/p8/p8-router3.png"/>
+        			</div>
+        		</div>
+            </div>
+            <div class="page page9">
+            	<div class="bg9"></div>
+            	
+            	<p class="page-num">8</p>
+        		
+        		<div class="base-page base-bg-prea" style="background: transparent url(img/p9/p9-all-bg.png) center no-repeat;background-size: 100% 100%;border: none">
+        			<img class="p9-bg-title" src="img/p9/p9-title-bg.png"/>
+        			<div class="p9-xian opaCity">
+        				<img class="p9-jingdian1 opaCity" src="img/p9/p9-jingdian1.png"/>
+        				<img class="p9-jingdian2 opaCity" src="img/p9/p9-jingdian2.png"/>
+        				<img class="p9-jingdian3 opaCity" src="img/p9/p9-jingdian3.png"/>
+        				<img class="p9-jingdian4 opaCity" src="img/p9/p9-jingdian4.png"/>
+        				<img class="p9-jingdian5 opaCity" src="img/p9/p9-jingdian5.png"/>
+        			</div>
+        			<div class="p9-chat opaCity"></div>
+        			<p class="p9-wenan boxSiz opaCity">五一假日，沪上游玩景点以朱家角、野生动物园、外滩为主。</p>
+        		</div>
+            </div>
+            <div class="page page10">
+                <div class="bg10"></div>
+                
+                <p class="page-num">9</p>
+        		
+        		<div class="base-page base-bg-prea" style="background: transparent url(img/p10/p10-all-bg.png) center no-repeat;background-size: 100% 100%;border: none">
+        			<img class="p10-bg-title" src="img/p10/p10-title-bg.png"/>
+        			<div class="p10-xian opaCity">
+        				<img class="p10-jingdian1 opaCity" src="img/p10/p10-jingdian2.png"/>
+        				<img class="p10-jingdian2 opaCity" src="img/p10/p10-jingdian1.png"/>
+        				<img class="p10-jingdian3 opaCity" src="img/p10/p10-jingdian3.png"/>
+        				<img class="p10-jingdian4 opaCity" src="img/p10/p10-jingdian4.png"/>
+        				<img class="p10-jingdian5 opaCity" src="img/p10/p10-jingdian5.png"/>
+        			</div>
+        			<div class="p10-chat opaCity"></div>
+        			<p class="p10-wenan boxSiz opaCity">假日购物，消费者更偏好月星环球港、上海六百和大悦城 等商圈</p>
+        		</div>
+            </div>
+            <div class="page page11">
+                <div class="bg11"></div>
+                
+                <p class="page-num">10</p>
+        		
+        		<div class="base-page base-bg-prea" style="background: transparent url(img/p11/p11-all-bg.png) center no-repeat;background-size: 100% 100%;border: none">
+        			<img class="p11-bg-title" src="img/p11/p11-title-bg.png"/>
+        			<div class="p11-xian">
+        				<img class="p11-jingdian1 opaCity" src="img/p11/p11-xiaochi1.png"/>
+        				<img class="p11-jingdian2 opaCity" src="img/p11/p11-xiaochi2.png"/>
+        				<img class="p11-jingdian3 opaCity" src="img/p11/p11-xiaochi3.png"/>
+        				<img class="p11-jingdian4 opaCity" src="img/p11/p11-xiaochi4.png"/>
+        				<img class="p11-jingdian5 opaCity" src="img/p11/p11-xiaochi5.png"/>
+        			</div>
+        			<div class="p11-chat opaCity"></div>
+        			<p class="p11-wenan boxSiz opaCity">假期三天，休闲放松呼吸一下新鲜空气的人群主要在世纪公园、辰山植物园和佘山森林公园等，公园内植被丰富，温度适宜，是天然的氧吧。</p>
+        		</div>
+            </div>
+            <div class="page page12">
+                <div class="bg12"></div>
+                
+                <p class="page-num">11</p>
+                <img class="zongjie opaCity" src="img/p12/zongjie.png"/>
+        		
+        		<div class="base-page base-bg-prea">
+        			<img class="p12-title-bg" src="img/p12/p12-title-bg.png"/>
+        			<p class="p12-title-1 opaCity">在沪人群总体结构</p>
+        			<div class="p12-yuan opaCity">
+        				
+        			</div>
+        			<p class="p12-title-2 opaCity">人群结构与年龄关系</p>
+        			<div class="p12-chat-title boxSiz opaCity">
+        				<img class="fr" src="img/p12/p12-fenlei.png" />
+        			</div>
+        			<img class="p12-chat1 opaCity" src="img/p12/p12-chat1.png"/>
+        			<img class="p12-chat2 opaCity" src="img/p12/p12-chat2.png"/>
+        			<img class="p12-chat3 opaCity" src="img/p12/p12-chat3.png"/>
+        			<img class="p12-chat4 opaCity" src="img/p12/p12-chat4.png"/>
+        		</div>
+            </div>
+            <div class="page page13">
+                <div class="bg13"></div>
+                
+                <p class="page-num">12</p>
+        		
+        		<div class="base-page base-bg-prea">
+        			<img class="p13-title-bg" src="img/p13/p13-title-bg.png"/>
+        			<div class="p13-chat-title-1 boxSiz opaCity">在沪人群性别分布<img class="fr" src="img/p13/p13-xingbie.png" /></div>
+        			<div class="p13-chat-box boxSiz">
+        				<img class="p13-chat1 fl opaCity" src="img/p13/p13-chat1.png"/>
+        				<img class="p13-chat2 fl opaCity" src="img/p13/p13-chat2.png"/>
+        				<img class="p13-chat3 fl opaCity" src="img/p13/p13-chat3.png"/>
+        				<img class="p13-chat4 fl opaCity" src="img/p13/p13-chat4.png"/>
+        			</div>
+        			<div class="p13-chat-title-2 boxSiz opaCity">主要加班地区</div>
+        			<div class="p13-map-box opaCity">
+        				<img class="local-1 opaCity" src="img/p13/local-1.png"/>
+        				<img class="local-2 opaCity" src="img/p13/local-2.png"/>
+        				<img class="local-3 opaCity" src="img/p13/local-3.png"/>
+        				<img class="local-4 opaCity" src="img/p13/local-4.png"/>
+        			</div>
+        			<p class="p13-wenan boxSiz">咱撸起袖子加油干，劳动最光荣！</p>
+        			<img class="p13-jiaban" src="img/p13/p13-litter-bg.png"/>
+        		</div>
+            </div>
+            <div class="page page14">
+                <div class="bg14"></div>
+                
+                <p class="page-num">13</p>
+        		
+        		<div class="base-page base-bg-prea">
+        			<img class="p14-title-bg" src="img/p14/p14-title-bg.png"/>
+        			<div class="p14-list p14-list1 boxSiz" style="margin-top: 90px;">
+        				<p class="p14-list-title opaCity">节日三天人均总流量</p>
+        				<div class="p14-block1 p14-chat01" style="background-image: linear-gradient(90deg,#f44044 0%, #f39025 100%);width: 0%;">节前239.58M</div>
+        				<div class="p14-block2 p14-chat02" style="background-image: linear-gradient(90deg,#f44044 0%, #f39025 100%);width: 0%;">节中248.58M</div>
+        				<img class="p14-jiantou opaCity" src="img/p14/p14-jiantou.png"/>
+        				<span class="p14-jiantou-text opaCity">增幅4%</span>
+        			</div>
+        			<div class="p14-list p14-list2 boxSiz">
+        				<p class="p14-list-title opaCity" >出游人群节日三天人均流量</p>
+        				<div class="p14-block1 p14-chat03" style="background-image: linear-gradient(90deg,#cb1f58 0%, #f14ed8 100%);width: 0%;">节前148.14M</div>
+        				<div class="p14-block2 p14-chat04" style="background-image: linear-gradient(90deg,#cb1f58 0%, #f14ed8 100%);width: 0%;">节中194.23M</div>
+        				<img class="p14-jiantou opaCity" src="img/p14/p14-jiantou.png"/>
+        				<span class="p14-jiantou-text opaCity">增幅24%</span>
+        			</div>
+        			<div class="p14-list p14-list3 boxSiz">
+        				<p class="p14-list-title opaCity">出游和在沪人群节日三天人均流量</p>
+        				<div class="p14-block1 p14-chat05" style="background-image: linear-gradient(90deg,#d91f4c 0%, #952ecb 100%);width: 0%;">在沪人群人均229.15M</div>
+        				<div class="p14-block2 p14-chat06" style="background-image: linear-gradient(90deg,#d91f4c 0%, #952ecb 100%);width: 0%;">出游人群人均194.87M</div>
+        				<!--<img class="p14-jiantou opaCity" src="img/p14/p14-jiantou.png"/>
+        				<span class="p14-jiantou-text opaCity">增幅40%</span>-->
+        			</div>
+        			<p class="p14-wenan boxSiz">何以解忧？唯有流量！</p>
+        		</div>
+            </div>
+            <div class="page page15">
+                <div class="bg15"></div>
+                
+                <p class="page-num">14</p>
+        		
+        		<div class="base-page base-bg-prea">
+        			<img class="p15-title-bg" src="img/p15/p15-title-bg.png"/>
+        			<p class="p15-wenan boxSiz opaCity">
+        				  本报告由中国移动通信集团上海有限公司制作发布，报告中的文字、  图表和数据均受中国法律知识产权相关条例的版权保护，未经过中国移动书面许可，任何组织和个人，不得将本报告中的信息用于其他商业目的。
+  本报告中的样本数据来源于上海移动相关数据，由于调研方法、样本和调查资料收集范围的限制，部分数据可能和市场情况有所偏差。
+  以上统计仅包括中国移动用户的相关数据，不包含其他运营商用户数据。
+  本报告只用于市场参考资料，中国移动及其下属单位对该报告的数据准确性不承担法律责任。
+  					<span class="al-r">上海移动信息系统运营部</span>
+        			</p>
+        			<div class="p15-LOGO opaCity"></div>
+        		</div>
+            </div>
+            <!--<div class="page page16">
+                <div class="bg16"></div>
+                
+                <img class="base-ren" src="img/base-ren.png" />
+                <img class="base-footer-qi" src="img/base-footer-qi.png" />
+                <img class="pages-header" src="img/p1/p1-header.png"/>
+        		<img class="pages-footer" src="img/p1/p1-footer.png"/>
+        		
+        		<div class="base-page base-bg-prea">
+        			<div class="base-bg-title al-c c-yellow">总体漫入漫出</div>
+        		</div>
+        		<div class="base-page base-bg-next">
+        			
+        		</div>
+            </div>-->
+        </div>
+    </div>
+    <audio id="myMusic" src="images/music.mp3" preload="auto" autoplay="autoplay"  loop="loop" ></audio>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.transit.js"></script>
+    <script src="js/touch-0.2.14.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script> 
+    <!--<script src="js/layer/layer.js"></script>-->
+    <script src="js/public.js"></script>
+    <script>
+		var n=0,winH,flag=true,len;
+		/*document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);*/
+		window.addEventListener('touchmove', function(){}, { passive: false })
+		$(function(){
+			winH=$(window).height();
+			len=$(".page").length;
+			$(".main").height(winH);
+			$(window).resize(function(){
+				winH=$(window).height();
+				$(".main").height(winH);
+			});
+
+			var pics = ['img/p1/header-bg.png','img/p1/qianjing.png','img/p1/text1.png','img/p1/text2.png','img/p1/aire.png','img/p1/green.png','img/p1/LOGO.png','img/p1/qq2.png','img/p1/qq1.png','img/p1/qq3.png'];
+			var lenA=pics.length;
+			var index=0;
+			function loadImage(index){
+				var img = new Image();
+				img.src = pics[index];
+				img.onload = function(){
+					index++;
+					if(index < lenA){
+						loadImage(index);
+					}else{
+						$(".loading_box").fadeOut(1000,function(){oppo.moveUp()});
+					}
+				}
+			};
+			loadImage(index);
+
+		    
+			
+			//音乐播放
+			document.getElementById("myMusic").play();
+			var musicInt = true;
+			/*$(".music_inco").css('animation','none');*/
+			$(".music_inco").click(function(){
+				if(musicInt){
+					$(this).css({
+						'animation': 'none',
+						'-webkit-animation': 'none'
+					});
+					document.getElementById("myMusic").pause();
+					musicInt = !musicInt;
+				}else{
+					$(this).css({
+						'animation': 'run 2s infinite 0s linear',
+						'-webkit-animation': 'run 2s infinite 0s linear'
+					});
+					document.getElementById("myMusic").play();
+					musicInt = !musicInt;
+				}
+				/*$(this).toggleClass("on");
+				if($(this).hasClass("on")){
+					document.getElementById("music").pause();
+				}else{
+					document.getElementById("music").play();
+				}*/
+				
+			});
+			oppo.init();
+			touch.on(".main", 'swipeup', function(ev){
+				oppo.moveUp();
+			});
+			touch.on(".main", 'swipedown', function(ev){
+				oppo.moveDown();
+			});
+		});
+    </script>
+</body>
+</html>

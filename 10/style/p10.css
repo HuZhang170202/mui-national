@@ -1,0 +1,89 @@
+.g-con{
+	width: 664px;
+	height: 1100px;
+	position: absolute;
+	left: 50%;top:50%;
+	margin-left: -332px;
+	margin-top: -550px;
+	border: solid 1px #ff931d;
+	background-color: rgba(246,222,193,0.9);
+	opacity: 0;z-index: 6;
+}
+.g-con-line{
+	width: 644px;
+	height: 1080px;
+	position: absolute;
+	left: 10px;top:10px;
+	border: dashed 1px #ff931d;
+	opacity: 0;z-index: 6;
+}
+.aire{
+	position: absolute;
+	left: -24px;
+	top: 0px;opacity: 0;
+}
+.p10-path{
+    position: absolute;
+	left:45px;top:155px;
+   opacity: 0; 
+}
+.p10-top1{
+    position: absolute;
+	right:35px;top:165px;
+   opacity: 0; 
+}
+.p10-top1tu{
+    position: absolute;
+	right:145px;top:145px;
+   opacity: 0; 
+}
+.p10-top2{
+    position: absolute;
+	left:185px;top:275px;
+   opacity: 0; 
+}
+.p10-top2tu{
+    position: absolute;
+	left:30px;top:205px;
+   opacity: 0; 
+}
+.p10-top3{
+    position: absolute;
+	left:25px;top:470px;
+   opacity: 0; 
+}
+.p10-top3tu{
+    position: absolute;
+	left:140px;top:425px;
+   opacity: 0; 
+}
+.p10-top4{
+    position: absolute;
+	right:30px;top:390px;
+   opacity: 0; 
+}
+.p10-top4tu{
+    position: absolute;
+	right:165px;top:350px;
+   opacity: 0; 
+}
+.p10-top5{
+    position: absolute;
+	right:195px;top:575px;
+   opacity: 0; 
+}
+.p10-top5tu{
+    position: absolute;
+	right:30px;top:550px;
+   opacity: 0; 
+}
+.p10-quxian{
+    position: absolute;
+	left:60px;bottom:185px;
+    opacity: 0; 
+}
+.p10-xiaojie{
+    position: absolute;
+	left:60px;bottom:70px;
+     opacity: 0; 
+}

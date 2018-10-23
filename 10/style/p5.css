@@ -1,0 +1,129 @@
+.g-con{
+	width: 664px;
+	height: 1100px;
+	position: absolute;
+	left: 50%;top:50%;
+	margin-left: -332px;
+	margin-top: -550px;
+	border: solid 1px #ff931d;
+	background-color: rgba(246,222,193,0.9);
+	opacity: 0;z-index: 6;
+}
+.g-con-line{
+	width: 644px;
+	height: 1080px;
+	position: absolute;
+	left: 10px;top:10px;
+	border: dashed 1px #ff931d;
+	opacity: 0;z-index: 6;
+}
+.aire{
+	position: absolute;
+	left: -24px;
+	top: 0px;opacity: 0;
+}
+.city-usa{
+    position: absolute;
+    left:67px;top:150px;
+    opacity: 0; 
+}
+.city-bg1{
+    position: absolute;
+    left:330px;top:150px;
+    opacity: 0; 
+}
+.city-name1{
+    position: absolute;
+    left:380px;top:170px;
+    opacity: 0; 
+}
+.xk1{
+    position: absolute;
+    left:78px;top:150px;
+    opacity: 0;
+}
+.city-rb{
+    position: absolute;
+    left:67px;top:315px;
+    opacity: 0; 
+}
+.city-bg2{
+    position: absolute;
+    left:330px;top:315px;
+    opacity: 0; 
+}
+.city-name2{
+    position: absolute;
+    left:380px;top:335px;
+    opacity: 0; 
+}
+.xk2{
+    position: absolute;
+    left:78px;top:315px;
+    opacity: 0; 
+}
+.city-xg{
+    position: absolute;
+    left:67px;top:475px;
+    opacity: 0; 
+}
+.city-bg3{
+    position: absolute;
+    left:330px;top:475px;
+    opacity: 0; 
+}
+.city-name3{
+    position: absolute;
+    left:380px;top:495px;
+    opacity: 0; 
+}
+.xk3{
+    position: absolute;
+    left:78px;top:475px;
+    opacity: 0; 
+}
+.city-tw{
+    position: absolute;
+    left:67px;top:635px;
+    opacity: 0; 
+}
+.city-bg4{
+    position: absolute;
+    left:330px;top:635px;
+    opacity: 0; 
+}
+.city-name4{
+    position: absolute;
+    left:380px;top:655px;
+    opacity: 0; 
+}
+.xk4{
+    position: absolute;
+    left:78px;top:635px;
+    opacity: 0; 
+}
+.city-aoda{
+    position: absolute;
+    left:67px;top:795px;
+    opacity: 0; 
+}
+.city-bg5{
+    position: absolute;
+    left:330px;top:795px;
+    opacity: 0; 
+}
+.city-name5{
+    position: absolute;
+    left:360px;top:815px;
+    opacity: 0; 
+}
+.xk5{
+    position: absolute;
+    left:78px;top:795px;
+    opacity: 0; 
+}
+.p5-text{
+    position: absolute;
+    left:78px;bottom:40px;
+    opacity: 0; 
+}

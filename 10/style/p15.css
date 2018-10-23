@@ -1,0 +1,113 @@
+.aiqiyi{
+    position: absolute;
+    left:240px; top:150px;
+    opacity: 0;
+}
+
+.p15-pic1{
+    position: absolute;
+    left:130px; top:320px;
+    opacity: 0;
+}
+.p15-bg1{
+    position: absolute;
+    right:118px; top:320px;
+    opacity: 0;
+}
+.p15-text1{
+    position: absolute;
+    right:160px; top:335px;
+    opacity: 0;
+}
+.p15-xk1{
+    position: absolute;
+    left:136px; top:321px;
+    opacity: 0;
+}
+
+.p15-pic2{
+    position: absolute;
+    left:130px; top:450px;
+    opacity: 0;
+}
+.p15-bg2{
+    position: absolute;
+    right:118px; top:450px;
+    opacity: 0;
+}
+.p15-text2{
+    position: absolute;
+    right:150px; top:465px;
+    opacity: 0;
+}
+.p15-xk2{
+    position: absolute;
+    left:136px; top:451px;
+    opacity: 0;
+}
+.p15-pic3{
+    position: absolute;
+    left:130px; top:580px;
+    opacity: 0;
+}
+.p15-bg3{
+    position: absolute;
+    right:118px; top:580px;
+    opacity: 0;
+}
+.p15-text3{
+    position: absolute;
+    right:150px; top:595px;
+    opacity: 0;
+}
+.p15-xk3{
+    position: absolute;
+    left:136px; top:581px;
+    opacity: 0;
+}
+.p15-pic4{
+    position: absolute;
+    left:130px; top:710px;
+    opacity: 0;
+}
+.p15-bg4{
+    position: absolute;
+    right:118px; top:710px;
+    opacity: 0;
+}
+.p15-text4{
+    position: absolute;
+    right:165px; top:725px;
+    opacity: 0;
+}
+.p15-xk4{
+    position: absolute;
+    left:136px; top:711px;
+    opacity: 0;
+}
+.p15-pic5{
+    position: absolute;
+    left:130px; top:840px;
+    opacity: 0;
+}
+.p15-bg5{
+    position: absolute;
+    right:118px; top:840px;
+    opacity: 0;
+}
+.p15-text5{
+    position: absolute;
+    right:150px; top:855px;
+    opacity: 0;
+}
+.p15-xk5{
+    position: absolute;
+    left:136px; top:841px;
+    opacity: 0;
+}
+.p15-xiaojie{
+    position: absolute;
+    left:55px; bottom:50px;
+    opacity: 0;
+}
+

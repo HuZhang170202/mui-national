@@ -1,0 +1,56 @@
+/*第三屏*/
+.p3-map1{
+	position: absolute;top: 217px; left: 21px;opacity: 0;
+}
+.p3-no1{
+	position: absolute;top: 245px; left: 424px;opacity: 0;
+}
+.p3-no2{
+	position: absolute;top: 331px; left: 432px;opacity: 0;
+}
+.p3-no3{
+	position: absolute;top: 408px; left: 435px;opacity: 0;
+}
+.p3-jiantou{
+	position: absolute;top: 350px; left: 264px;opacity: 0;
+}
+.p3l-title1{
+	position: absolute;top: 144px; left: 30px;opacity: 0;
+}
+.p3-title2{
+	position: absolute;top: 567px; left: 30px;opacity: 0;
+}
+.p3-map2{
+	position: absolute;top: 639px; left: 12px;opacity: 0;
+}
+
+.p3-label1{
+	position: absolute;top: 713px; left: 27px;opacity: 0;
+}
+.p3-label-text1{
+	position: absolute;top: 644px; left: 59px;opacity: 0;
+}
+.p3-label2{
+	position: absolute;top: 710px; left: 254px;opacity: 0;
+}
+.p3-label-text2{
+	position: absolute;top: 652px; left: 284px;opacity: 0;
+}
+.p3-label3{
+	position: absolute;top: 762px; left: 563px;opacity: 0;
+}
+.p3-label-text3{
+	position: absolute;top: 692px; left: 444px;opacity: 0;
+}
+.p3-label4{
+	position: absolute;top: 802px; left: 500px;opacity: 0;
+}
+.p3-label-text4{
+	position: absolute;top: 745px; left: 371px;opacity: 0;
+}
+.p3-label5{
+	position: absolute;top: 863px; left: 482px;opacity: 0;
+}
+.p3-label-text5{
+	position: absolute;top: 824px; left: 341px;opacity: 0;
+}

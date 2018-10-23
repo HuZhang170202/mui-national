@@ -1,0 +1,65 @@
+.p11-path{
+    position: absolute;
+    left:90px; top:140px;
+    opacity: 0; 
+}
+.p11-top1{
+    position: absolute;
+    left:205px; top:165px;
+    opacity: 0; 
+}
+.p11-top1tu{
+    position: absolute;
+    left:45px; top:105px;
+    opacity: 0; 
+}
+.p11-top2{
+    position: absolute;
+    right:50px; top:195px;
+    opacity: 0; 
+}
+.p11-top2tu{
+    position: absolute;
+    right:155px; top:165px;
+    opacity: 0; 
+}
+.p11-top3{
+    position: absolute;
+    left:45px; top:325px;
+    opacity: 0; 
+}
+.p11-top3tu{
+    position: absolute;
+    left:155px; top:300px;
+    opacity: 0; 
+}
+.p11-top4{
+    position: absolute;
+    left:260px; top:535px;
+    opacity: 0; 
+}
+.p11-top4tu{
+    position: absolute;
+    left:95px; top:495px;
+    opacity: 0; 
+}
+.p11-top5{
+    position: absolute;
+    right:65px; top:580px;
+    opacity: 0; 
+}
+.p11-top5tu{
+    position: absolute;
+    right:50px; top:420px;
+    opacity: 0; 
+}
+.p11-quxian{
+    position: absolute;
+	left:60px;bottom:160px;
+    opacity: 0; 
+}
+.p11-xiaojie{
+    position: absolute;
+	left:60px;bottom:60px;
+    opacity: 0; 
+}

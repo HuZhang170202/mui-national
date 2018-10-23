@@ -1,0 +1,107 @@
+/*第十四屏-----*/
+.p14-title-bg{
+	width: 480px;
+	height: 120px;
+	position: absolute;
+	left: 50%;top: -60px;
+	margin-left: -240px;
+}
+.p14-list{
+	width: 100%;
+	padding: 0px 60px;
+	position: relative;
+	margin-bottom: 88px;
+}
+.p14-list-title{
+	line-height: 40px;
+	font-size: 26px;
+	color: #333;
+	margin-bottom: 15px;
+}
+.p14-block1, .p14-block2{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: pink;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.p14-list1 .p14-jiantou{
+	position: absolute;
+	right: 132px;
+	bottom: 20px;
+}
+.p14-list1 .p14-jiantou-text{
+	font-size: 26px;
+    color: #f00;
+    position: absolute;
+    right: 21px;
+    bottom: 26px;
+}
+
+.p14-list2 .p14-jiantou{
+	position: absolute;
+	right: 132px;
+	bottom: 20px;
+}
+.p14-list2 .p14-jiantou-text{
+	font-size: 26px;
+	color: #f00;
+	position: absolute;
+	right: 21px;
+    bottom: 26px;
+}
+
+.p14-list3 .p14-jiantou{
+	position: absolute;
+	right: 132px;
+	bottom: 20px;
+}
+.p14-list3 .p14-jiantou-text{
+	font-size: 26px;
+	color: #f00;
+	position: absolute;
+	right: 21px;
+    bottom: 26px;
+}
+.p14-wenan{
+	display: block;
+	width: 100%;
+    padding: 30px 60px 0px 60px;
+    font-family: 黑体;
+    font-size: 26px;
+    line-height: 40px;
+    color: #333;
+}
+/*第十五屏-----*/
+.p15-title-bg{
+	width: 365px;
+	height: 122px;
+	position: absolute;
+	left: 50%;top: -61px;
+	margin-left: -182px;
+}
+.p15-wenan{
+	display: block;
+	width: 100%;
+    padding: 30px 60px 0px 60px;
+    font-family: 黑体;
+    font-size: 26px;
+    line-height: 40px;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.p15-wenan span{
+	display: block;
+	height: 30px;
+}
+.p15-LOGO{
+	width: 240px;
+	height: 100px;
+	background: url(../img/p1/LOGO.png) center no-repeat;
+	margin: 0 auto;
+}

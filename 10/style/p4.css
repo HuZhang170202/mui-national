@@ -1,0 +1,124 @@
+.g-con{
+	width: 664px;
+	height: 1100px;
+	position: absolute;
+	left: 50%;top:50%;
+	margin-left: -332px;
+	margin-top: -550px;
+	border: solid 1px #ff931d;
+	background-color: rgba(246,222,193,0.9);
+	opacity: 0;z-index: 6;
+}
+.g-con-line{
+	width: 644px;
+	height: 1080px;
+	position: absolute;
+	left: 10px;top:10px;
+	border: dashed 1px #ff931d;
+	opacity: 0;z-index: 6;
+}
+.aire{
+	position: absolute;
+	left: -24px;
+	top: 0px;opacity: 0;
+}
+.p4-text1{
+    position: absolute;
+    left:40px;top:140px;
+    opacity:0;
+}
+.p4-map{
+    position: absolute;
+    left:40px;top:220px;
+    opacity:0;
+}
+.p4-text2{
+    position: absolute;
+    right:150px;top:380px;
+    opacity:0;
+}
+.p4-text3{
+    position: absolute;
+    right:120px;top:445px;
+    opacity:0;
+}
+.p4-text4{
+    position: absolute;
+    left:270px;top:425px;
+    opacity: 0;
+}
+.p4-no4{
+    position: absolute;
+    left:90px;top:580px;
+    opacity: 0;
+}
+.p4-no5{
+    position: absolute;
+    left:370px;top:580px;
+    opacity: 0;
+}
+.p4-no6{
+    position: absolute;
+    left:90px;top:640px;
+    opacity: 0;
+}
+.p4-no7{
+    position: absolute;
+    left:370px;top:640px;
+    opacity: 0;
+}
+.p4-no8{
+    position: absolute;
+    left:90px;top:710px;
+    opacity: 0;
+}
+.p4-no9{
+    position: absolute;
+    left:370px;top:710px;
+    opacity: 0;
+}
+.play{
+    position: absolute;
+    left:50px;top:780px;
+    opacity: 0;
+}
+.white1{
+    position: absolute;
+    left:180px;top:780px;
+    opacity: 0;
+}
+.yellow1{
+    position: absolute;
+    left:180px;top:780px;
+    opacity: 0;
+}
+.num1{
+    position: absolute;
+    right:65px;top:785px;
+    opacity: 0;
+}
+.home{
+    position: absolute;
+    left:50px;top:860px;
+    opacity: 0;
+}
+.white2{
+    position: absolute;
+    left:180px;top:856px;
+    opacity: 0;
+}
+.yellow2{
+    position: absolute;
+    left:180px;top:856px;
+    opacity: 0;
+}
+.num2{
+    position: absolute;
+    right:65px;top:860px;
+    opacity: 0;
+}
+.p4-text5{
+    position: absolute;
+    left:50px;top:945px;
+    opacity: 0;
+}

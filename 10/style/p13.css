@@ -1,0 +1,65 @@
+.p13-text1{
+    position: absolute;
+    left:55px;top:150px;
+     opacity: 0;
+}
+.p13-sex{
+    position: absolute;
+    right:210px;top:160px;
+     opacity: 0;
+}
+.p13-type1{
+    position: absolute;
+    left:150px;top:210px;
+     opacity: 0;
+}
+.p13-type2{
+    position: absolute;
+    left:355px;top:210px;
+     opacity: 0;
+}
+.p13-type3{
+    position: absolute;
+    left:150px;top:390px;
+     opacity: 0;
+}
+.p13-type4{
+    position: absolute;
+    left:355px;top:390px;
+     opacity: 0;
+}
+.p13-text2{
+    position: absolute;
+    left:55px;top:580px;
+     opacity: 0;
+}
+.p13-map{
+    position: absolute;
+    left:35px;top:630px;
+     opacity: 0;
+}
+.p13-dw1{
+    position: absolute;
+    left:345px;bottom:345px;
+     opacity: 0;
+}
+.p13-dw2{
+    position: absolute;
+    left:120px;bottom:275px;
+     opacity: 0;
+}
+.p13-dw3{
+    position: absolute;
+    left:120px;bottom:140px;
+     opacity: 0;
+}
+.p13-dw4{
+    position: absolute;
+    right:105px;bottom:275px;
+     opacity: 0;
+}
+.p13-text3{
+    position: absolute;
+    left:55px;bottom:70px;
+     opacity: 0;
+}
